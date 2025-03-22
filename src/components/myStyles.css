@@ -1,0 +1,206 @@
+.body{
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 10px;
+
+}
+.primary{
+    display:flex;
+    flex-wrap:wrap;  
+}
+.brand{
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: times new 'Times New Roman', Times, serif;
+}
+.title{
+    color: gray;
+}
+.rating{
+    max-width: 8%;
+}
+.images{
+    width: 200px;
+    height: auto;  
+    padding-top: 100px;
+    padding-left: 40px; 
+    padding-right:50px; 
+}
+.details{
+    display: flex;
+    
+}
+.detailImage{
+   padding-right: 300px;
+   margin-top: 100px;
+}
+.detailsBrand{
+    display: block;
+    font-weight:bold;
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 120px;
+}
+.productName{
+   color: gray;
+  font-family: Monaco;
+  font-size: 19px;
+}
+.productPrice{
+    font-size: 18px;
+}
+.productDiscount{
+    color: rgb(12, 173, 12);
+    font-size: 20px;
+}
+.productRating{
+    font-size: 18px;
+}
+.productQuanity{
+    font-size: 15px;
+}
+.cartButton{
+    background-color: rgb(255, 216, 20);
+    font-size: 18px;
+    font-family: Arial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8pc;
+    margin-top: 20px;
+
+}
+/* .searchBar{
+    flex: 1;
+    height: 34;
+    
+} */
+.logo{
+    height: 40px;
+}
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000000;
+}
+.leftSection{
+    height: 20px;
+    display: flex;
+}
+.middleSection{
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 500px;
+}
+.rightSection{
+    width: 100px;
+    
+}
+.cart{
+    height: 40px;
+}
+.productInformation{
+    text-align: center;
+}
+.ratingImage{
+    max-height: 30px;
+   
+}
+.ratingSize{
+    font-size: 20px;
+}
+.loginbody{
+    text-align: center;
+    padding-top: 300px;
+}
+.cartImage{
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 200px;
+    height: 240px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+}
+.cartdetails{
+    padding-top: 40px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight:bold;
+    font-family: Arial;
+    padding-left: 30px;
+}
+.deletebutton{
+    color: rgb(209, 7, 7);
+    margin-top: 20px;
+}
+.shoppingtext{
+    text-align: center;
+    font-family: Arial;
+}
+.Cartcount{
+    color: white;
+    padding-left: 1470px;
+    font-weight: bold;
+}
+
+.buycart{
+    background-color: rgb(255, 216, 20);
+    font-size: 16px;
+    font-family: Arial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 90px;
+    padding-right: 100px;
+    border-radius: 8pc;
+    margin-top: 80px;
+    margin-left: 650px;
+    
+}
+.paymentBody{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family:'Arial';
+    display: flex;
+    flex-direction: column;
+}
+
+.cardAndNum{
+   padding-bottom: 40px;
+}
+
+.cardNameandExpireDate{
+    padding-left: 45px;
+}
+
+.savecard{
+    background-color: rgb(255, 216, 20);
+    font-size: 16px;
+    font-family: Arial;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 90px;
+    padding-right: 100px;
+    border-radius: 8pc;
+    margin-top: 80px;
+}
+
+.order{
+    color: rgb(6, 123, 6);
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+   flex-direction: row;
+}
+
+.greenTick{
+    height: 90px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 100px;
+}

@@ -19,7 +19,7 @@ function Registration(){
     }
     return(
         <div className="loginbody">
-            <h1>Amazon Registration Form</h1>
+            <h1>Amazon Registration</h1>
             <form onSubmit={buttonHandler}>
                 <div>
             <label>FirstName :</label>

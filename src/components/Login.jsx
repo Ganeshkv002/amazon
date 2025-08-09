@@ -34,7 +34,7 @@ function Login(){
             <h1>Login page</h1>
             <form onSubmit={buttonHandler}>
                 <div>
-                    <label>UserName </label>
+                    <label>username </label>
                     <input type="text" placeholder="email" value={user.userName} onChange={e => setUser({...user,userName:e.target.value})}/>
                 </div>
                 <div>

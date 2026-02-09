@@ -1,0 +1,56 @@
+/* Centered container for logo and form */
+.content {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+
+/* Logo styling */
+.amazonIcon {
+    width: 140px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Form fields spacing */
+.spaceBetweenAttributes {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+/* Input styling */
+input, select {
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+/* Submit button styling */
+.submitButton {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    background-color: #FFD814;
+    border-radius: 25px;
+    border: none;
+    padding: 12px 60px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submitButton:hover {
+    background-color: #F7CA00;
+    transform: translateY(-2px);
+}

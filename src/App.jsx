@@ -12,6 +12,7 @@ import Cart from './components/Cart'
 import React from 'react'
 import BankDetails from './components/BankDetails'
 import OrderCompleted from './components/OrderCompleted'
+import Orders from './components/Orders'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       <Route path='/products/:id' element={<ProductsDetails/>}/>
       <Route path='/products/cart' element={<Cart/>}/>
       <Route path='/products/:id/cart/bankdetails' element={<BankDetails/>}/>
-      <Route path='/products/:id/cart/bankdetails/order' element={<OrderCompleted/>}/>
+      <Route path='/products/:id/cart/bankdetails/orderCompleted' element={<OrderCompleted/>}/>
+      <Route path='/products/:id/cart/orders' element={<Orders/>}/>
 
     </Routes>
       </BrowserRouter>

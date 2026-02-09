@@ -2,7 +2,7 @@
   align-items: center;
   margin-left: 100px;
   margin-right: 10px;
-
+  
 }
 .primary{
     display:flex;
@@ -17,6 +17,7 @@
 .title{
     color: gray;
 }
+
 .rating{
     max-width: 8%;
 }
@@ -26,6 +27,7 @@
     padding-top: 100px;
     padding-left: 40px; 
     padding-right:50px; 
+    cursor: pointer;
 }
 .details{
     display: flex;
@@ -34,6 +36,7 @@
 .detailImage{
    padding-right: 300px;
    margin-top: 100px;
+   cursor: pointer;
 }
 .detailsBrand{
     display: block;
@@ -60,16 +63,22 @@
 .productQuanity{
     font-size: 15px;
 }
+
 .cartButton{
-    background-color: rgb(255, 216, 20);
-    font-size: 18px;
-    font-family: Arial;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 8pc;
-    margin-top: 20px;
+    background-color: #FFD814;
+  font-family: Arial, sans-serif;
+  padding: 13px 100px 13px 90px;
+  border-radius: 8pc;
+  margin-top: 80px;
+  margin-left: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.cartButton:hover{
+    background-color: #F7CA00;
 
 }
 /* .searchBar{
@@ -79,17 +88,27 @@
 } */
 .logo{
     height: 40px;
+  cursor: pointer;
 }
 .header{
-    height: 55px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: black;
+  padding: 10px 20px;
 }
+
 .leftSection{
-    height: 20px;
     display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .middleSection{
     flex: 1;
@@ -98,25 +117,24 @@
     max-width: 500px;
 }
 .rightSection{
-    width: 100px;
+    display: flex;
+  align-items: center;
+  gap: 12px;
     
 }
 .cart{
-    height: 40px;
+    height: 35px;
+   cursor: pointer;
+   padding-right: 15px;
 }
 .productInformation{
     text-align: center;
 }
 .ratingImage{
     max-height: 30px;
-   
 }
 .ratingSize{
     font-size: 20px;
-}
-.loginbody{
-    text-align: center;
-    padding-top: 300px;
 }
 .cartImage{
     display: inline-block;
@@ -125,6 +143,7 @@
     height: 240px;
     padding-left: 200px;
     padding-bottom: 40px;
+    
 }
 .cartdetails{
     padding-top: 40px;
@@ -137,30 +156,36 @@
 .deletebutton{
     color: rgb(209, 7, 7);
     margin-top: 20px;
+    cursor: pointer;
 }
 .shoppingtext{
     text-align: center;
     font-family: Arial;
+    padding-top: 100px;
 }
 .Cartcount{
     color: white;
-    padding-left: 1470px;
-    font-weight: bold;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .buycart{
-    background-color: rgb(255, 216, 20);
-    font-size: 16px;
-    font-family: Arial;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 90px;
-    padding-right: 100px;
-    border-radius: 8pc;
-    margin-top: 80px;
-    margin-left: 650px;
-    
+    background-color: #FFD814;
+  font-family: Arial, sans-serif;
+  padding: 13px 100px 13px 90px;
+  border-radius: 8pc;
+  margin-top: 80px;
+  margin-left: 678px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
 }
+
+.buycart:hover{
+    background-color: #F7CA00;
+}
+
 .paymentBody{
     padding-top: 100px;
     text-align: center;
@@ -172,22 +197,24 @@
 
 .cardAndNum{
    padding-bottom: 40px;
+   padding-top: 40px;
 }
 
 .cardNameandExpireDate{
-    padding-left: 45px;
+    padding-left: 45px; 
 }
 
 .savecard{
-    background-color: rgb(255, 216, 20);
-    font-size: 16px;
-    font-family: Arial;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 90px;
-    padding-right: 100px;
-    border-radius: 8pc;
-    margin-top: 80px;
+    background-color: #FFD814;
+  font-family: Arial, sans-serif;
+  padding: 13px 100px 13px 90px;
+  border-radius: 8pc;
+  margin-top: 80px;
+  margin-left: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 .order{
@@ -204,3 +231,56 @@
     padding-right: 10px;
     padding-top: 100px;
 }
+
+.orders {
+  background-color: #FFD814;
+  font-family: Arial, sans-serif;
+  padding: 13px 100px 13px 90px;
+  border-radius: 8pc;
+  margin-top: 80px;
+  margin-left: 700px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+.orders:hover {
+  background-color: #f7ca00;
+}
+
+.orderItem {
+    display: flex;           
+    align-items: center;     
+    gap: 20px;              
+    padding: 15px 20px;
+   
+}
+
+.orderImg {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.orderData {
+    display: flex;
+    flex-direction: column;  
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.orderLink {
+    color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+    
+    
+}
+
+
+
+

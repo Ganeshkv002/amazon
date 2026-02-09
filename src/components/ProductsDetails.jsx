@@ -8,7 +8,7 @@ import Header from "./Header"
 function ProductsDetails(){
 
     const[productDetails,setProductDetails]=useState({})
-    const[cart,setCart] = useState({productId:'',status:'in-cart',quantity:''})
+    const[cart,setCart] = useState({productId:'',status:'in-cart',quantity:'',productPrice:''})
     const[quantity,setquantity] = useState(1)
     const params = useParams()
     const id = params.id;
@@ -24,13 +24,16 @@ function ProductsDetails(){
         })
     },[id])
 
+
     const cartHandler=()=>{
         const userId = localStorage.getItem("userId")  
         const updateCart ={
             ...cart,
             productId:productDetails.id,
             userId:userId,
-            quantity:quantity
+            quantity:quantity,
+            productPrice:productDetails.price
+            
         }
 
         setCart(updateCart);
@@ -39,9 +42,8 @@ function ProductsDetails(){
         .then(response=>{
             setCart(response.data)
             console.log(" cart data",response.data)
-            
         }) 
-
+        
         .catch(error=>{
             setCart(error)
         })

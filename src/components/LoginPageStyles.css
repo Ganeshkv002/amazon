@@ -1,0 +1,42 @@
+    .amazonLogo{
+        width: 120px;
+        height:auto;
+        display: block;
+        margin:10px auto 0px auto;
+        
+    }
+    
+    .content{
+        color: #333;
+        text-align: center;
+        font-family:Amazon Ember, Arial, sans-serif;
+        font-size: 20px;
+        background-color: white;
+        width: 300px;
+        border: 1px solid rgb(232, 218, 218);
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+    }
+    .searchBar{
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .loginBuuton{
+        color: black;
+        background-color: #FFD814;
+        border-radius: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border:none;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        font-size: 17px;
+    }
+    
+    .loginBuuton:hover{
+        background-color:  #F7CA00;
+    }
